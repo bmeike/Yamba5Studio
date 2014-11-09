@@ -21,13 +21,12 @@
     <string name="about">Yamba!\n   Created by Twitter University</string>
 
     <!-- Timeline Activity -->
-    <string name="menu_timeline">Timeline</string>
+    <string name="title_timeline">Timeline</string>
 
     <!-- Timeline Detail Activity -->
     <string name="title_timeline_detail">Detail</string>
 
     <!-- Tweet Activity -->
-    <string name="menu_tweet">Tweet</string>
     <string name="title_tweet">Tweet</string>
     <string name="tweet_hint">Whazzup?</string>
     <string name="tweet_submit">Submit</string>
@@ -35,7 +34,7 @@
     <string name="tweet_failed">Tweet not sent!</string>
 
     <!-- Preferences -->
-    <string name="menu_prefs">Prefs</string>
+    <string name="title_prefs">Prefs</string>
     <string name="prefs_title_handle">Account</string>
     <string name="prefs_key_handle">PREFS.HANDLE</string>
     <string name="prefs_title_passwd">Password</string>

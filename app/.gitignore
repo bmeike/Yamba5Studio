@@ -1,4 +1,7 @@
 
-# ignore the build artifacts
-
+# ignore gradle artifacts
 /build
+
+# ignore Studio artifacts
+/*.iml
+

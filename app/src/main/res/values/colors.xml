@@ -15,11 +15,11 @@
 -->
 <resources>
 
-    <color name="fog">#22000000</color>
+    <color name="fog">#88888888</color>
     <color name="text">#3388ff</color>
 
     <color name="tweet_len_ok">#339944</color>
-    <color name="tweet_len_warn">#dd7711</color>
+    <color name="tweet_len_warn">#ffab00</color>
     <color name="tweet_len_err">#dd2200</color>
 
 </resources>

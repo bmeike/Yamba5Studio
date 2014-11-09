@@ -21,7 +21,7 @@ import android.preference.PreferenceFragment;
 
 public class PrefsActivity extends YambaActivity {
 
-    public static class ClientPrefs extends PreferenceFragment {
+    public static class Prefs extends PreferenceFragment {
         @Override
         public void onCreate(Bundle savedInstanceState) {
             super.onCreate(savedInstanceState);
@@ -33,7 +33,7 @@ public class PrefsActivity extends YambaActivity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getFragmentManager().beginTransaction()
-            .replace(android.R.id.content, new ClientPrefs())
+            .replace(android.R.id.content, new Prefs())
             .commit();
     }
 }

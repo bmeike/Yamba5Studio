@@ -42,6 +42,7 @@
             android:label="@string/title_timeline_detail" />
         <activity
             android:name=".PrefsActivity"
+            android:label="@string/title_prefs"
             android:theme="@style/yambaPrefs" />
 
         <provider
