@@ -40,7 +40,6 @@ public class TweetFragment extends Fragment {
     private static final int BUTTON_HIDE = -1;
     private static final int BUTTON_HIDE_DELAY = 600;
 
-
     private class AnimationHandler extends Handler {
         @Override
         public void handleMessage(Message msg) {
@@ -168,7 +167,7 @@ public class TweetFragment extends Fragment {
 
     @TargetApi(Build.VERSION_CODES.LOLLIPOP)
     void hideButton() {
-        if ((submitButton == null) || !buttonVisible) { return; }
+        if ((null == submitButton) || !buttonVisible) { return; }
 
         int ctr = buttonDiameter / 2;
 
@@ -177,7 +176,7 @@ public class TweetFragment extends Fragment {
             @Override
             public void onAnimationEnd(Animator animation) {
                 super.onAnimationEnd(animation);
-                submitButton.setVisibility(View.INVISIBLE);
+                if (null != submitButton) { submitButton.setVisibility(View.INVISIBLE); }
                 buttonVisible = false;
             }
         });
