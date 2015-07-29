@@ -1,5 +1,7 @@
 
-# AnDevCon Yamba
+# DEPRECATED!!! 
+# DO NOT USE THIS PROJECT FOR ANDEVCON BOSTON 2015!!
+# SEE https://github.com/bmeike/MaterialYamba
 
 Use File > Import Project to add this project to Android Studio.
 It contains branches:
